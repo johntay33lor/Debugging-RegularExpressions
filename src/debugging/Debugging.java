@@ -16,7 +16,7 @@ public class Debugging {
     }
 
     public static void main(String[] args) {
-        //Test that method works
+        //Test that method work
         int[] array = {1,2,3,4,5};
         double answer = getAverage(array);
         System.out.println("Average: " + answer);

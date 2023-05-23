@@ -11,7 +11,7 @@ public class Debugging_LogicError {
         double average = (double) sum / numbers.length;
 
         // Logic error
-        average += 10; // Adding 10 to the average
+        average += 10; // Adding 10 to the average.
 
         return average;
     }

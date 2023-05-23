@@ -4,7 +4,7 @@ public class Debugging_Exceptions {
         int sum = 0;
 
         try {
-            for (int i = 0; i <= nums.length; i++) { //ArrayIndexOutOfBoundsException
+            for (int i = 0; i <= nums.length; i++) { //ArrayIndexOutOfBoundsException added
                 sum += nums[i];
             }
         } catch (ArrayIndexOutOfBoundsException e) {
@@ -17,7 +17,7 @@ public class Debugging_Exceptions {
     }
 
     public static void main(String[] args) {
-        int[] array = null; //NullPointerException
+        int[] array = null; //NullPointerException added
         double answer = getAverage(array);
 
         System.out.println("Average: " + answer) ;
